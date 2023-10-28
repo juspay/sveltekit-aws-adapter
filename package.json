@@ -1,0 +1,44 @@
+{
+  "name": "@juspay/sveltekit-aws-adapter",
+  "description": "Adapter for SvelteKit apps to work on AWS Lambda@edge and Cloudfront",
+  "version": "0.0.1",
+  "type": "module",
+  "license": "MIT",
+  "author": {
+    "name": "Juspay Technologies Pvt Ltd",
+		"email": "support@jsupay.in",
+		"url": "https://juspay.in"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juspay/sveltekit-aws-adapter"
+  },
+  "keywords": [
+    "svelte",
+    "svelte-kit",
+    "svelte-kit-adapter",
+		"aws",
+		"lambda",
+		"cloudfront",
+		"edge"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@sveltejs/kit": "^1.5.0",
+    "@types/aws-lambda": "^8.10.112",
+    "@types/node": "^20.5.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "esbuild": "^0.19.2"
+  }
+}
