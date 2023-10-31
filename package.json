@@ -33,7 +33,7 @@
     "build": "tsc"
   },
   "devDependencies": {
-    "@sveltejs/kit": "^1.5.0",
+    "@sveltejs/kit": "^1.15.2",
     "@types/archiver": "^5.3.4",
     "@types/aws-lambda": "^8.10.112",
     "@types/mime-types": "^2.1.3",
