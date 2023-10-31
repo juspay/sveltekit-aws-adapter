@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@aws-sdk/client-cloudfront':
     specifier: ^3.438.0
@@ -25,8 +29,8 @@ dependencies:
 
 devDependencies:
   '@sveltejs/kit':
-    specifier: ^1.5.0
-    version: 1.5.0(svelte@3.59.2)(vite@4.4.9)
+    specifier: ^1.15.2
+    version: 1.15.2(svelte@3.59.2)(vite@4.4.9)
   '@types/archiver':
     specifier: ^5.3.4
     version: 5.3.4
@@ -1571,8 +1575,8 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@sveltejs/kit@1.5.0(svelte@3.59.2)(vite@4.4.9):
-    resolution: {integrity: sha512-AkWgCO9i2djZjTqCgIQJ5XfnSzRINowh2w2Gk9wDRuTwxKizSuYe3jNvds/HCDDGHo8XE5E0yWNC9j2XxbrX+g==}
+  /@sveltejs/kit@1.15.2(svelte@3.59.2)(vite@4.4.9):
+    resolution: {integrity: sha512-rLNxZrjbrlPf8AWW8GAU4L/Vvu17e9v8EYl7pUip7x72lTft7RcxeP3z7tsrHpMSBBxC9o4XdKzFvz1vMZyXZw==}
     engines: {node: ^16.14 || >=18}
     hasBin: true
     requiresBuild: true
@@ -1586,14 +1590,14 @@ packages:
       devalue: 4.3.2
       esm-env: 1.0.0
       kleur: 4.1.5
-      magic-string: 0.27.0
+      magic-string: 0.30.2
       mime: 3.0.0
       sade: 1.8.1
       set-cookie-parser: 2.6.0
       sirv: 2.0.3
       svelte: 3.59.2
       tiny-glob: 0.2.9
-      undici: 5.18.0
+      undici: 5.20.0
       vite: 4.4.9(@types/node@20.5.1)
     transitivePeerDependencies:
       - supports-color
@@ -1916,13 +1920,6 @@ packages:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
     dev: false
 
-  /magic-string@0.27.0:
-    resolution: {integrity: sha512-8UnnX2PeRAPZuN12svgR9j7M1uWMovg/CEnIwIG0LFkXSJJe4PdfUGiTGl8V9bsBHFUtfVINcSyYxd7q+kx9fA==}
-    engines: {node: '>=12'}
-    dependencies:
-      '@jridgewell/sourcemap-codec': 1.4.15
-    dev: true
-
   /magic-string@0.30.2:
     resolution: {integrity: sha512-lNZdu7pewtq/ZvWUp9Wpf/x7WzMTsR26TWV03BRZrXFsv+BI6dy8RAiKgm1uM/kyR0rCfUcqvOlXKG66KhIGug==}
     engines: {node: '>=12'}
@@ -2151,8 +2148,8 @@ packages:
     hasBin: true
     dev: true
 
-  /undici@5.18.0:
-    resolution: {integrity: sha512-1iVwbhonhFytNdg0P4PqyIAXbdlVZVebtPDvuM36m66mRw4OGrCm2MYynJv/UENFLdP13J1nPVQzVE2zTs1OeA==}
+  /undici@5.20.0:
+    resolution: {integrity: sha512-J3j60dYzuo6Eevbawwp1sdg16k5Tf768bxYK4TUJRH7cBM4kFCbf3mOnM/0E3vQYXvpxITbbWmBafaDbxLDz3g==}
     engines: {node: '>=12.18'}
     dependencies:
       busboy: 1.6.0
@@ -2226,7 +2223,3 @@ packages:
       compress-commons: 5.0.1
       readable-stream: 3.6.2
     dev: false
-
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
